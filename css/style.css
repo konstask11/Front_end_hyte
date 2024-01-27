@@ -1,0 +1,106 @@
+.topnav h3 {
+  color: aqua;
+  float: left;
+  padding-left: 20px;
+  padding-top: 15px;
+  margin: 5px;
+}
+
+.topnav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.topnav div{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #444;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+.text1 {
+  text-align: center;
+}
+
+
+  * {
+    box-sizing: border-box;
+  }
+
+
+  body {
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #111;
+    margin-left: 10px;
+  }
+
+  .main {
+    background-color: beige;
+    padding: 20px;
+    border: 3px #444;
+    width: 700px;
+    margin: 100px auto 50px;
+    padding-left: 20px;
+    padding-right: 100px;
+  }
+
+  footer {
+    clear: both;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: darkred;
+    height: 50px;
+    width: 100%;
+  }
+
+  h3{
+    text-align: center;
+    color: rgb(13, 44, 202);
+  }
+
+  h2{
+    text-align: center;
+    color: rgb(16, 96, 118);
+  }
+
+  #Joy {
+    width: 90px;
+    float: left;
+    padding-left: 5px;
+    margin: 20px;
+  }
+
+  #Chansey {
+    position: absolute;
+    top: 55px;
+    right: 300px;
+    width: 150px;
+  }

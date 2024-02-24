@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <h3>1. Fetch API GET request - Vitsi API rajapinnasta</h3>
+
+    <div class="show_joke"></div>
+
+    <button class="chuck">Hae vitsi</button>
+
+    <button class="toinen">Hae vitsin toinen nappula</button>
+
+    <h3>Tehtävä 2 - Kissakuvat</h3>
+
+    <figure>
+      <img src="http://placekitten.com/300/200" alt="Kissakuva" />
+      <figcaption>Tähän tulee kissakuvan tiedot</figcaption>
+    </figure>
+
+    <div id="cards">
+      <figure>
+        
+      </figure>
+    </div>
+
+    <button class="pics">Hae kissakuvat</button>
+
+    <h3>3. Flexboxilla tehty kortti - Staattinen tieto</h3>
+
+    <section class="container">
+      <!-- Kortti 1 -->
+      <div class="card" id="left">
+        <div class="card-img">
+          <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/686f05f5-5930-4df6-a652-bc126e88f187/dfr9bqh-42bf7051-9c29-40a6-be64-4c35da3306db.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY4NmYwNWY1LTU5MzAtNGRmNi1hNjUyLWJjMTI2ZTg4ZjE4N1wvZGZyOWJxaC00MmJmNzA1MS05YzI5LTQwYTYtYmU2NC00YzM1ZGEzMzA2ZGIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.JtoVnh6k5LMEeEqXEAYa2P2wzhS9ar-7K45K8RcfF74" alt="" >
+        </div>
+        <div class="card-diary">
+          <h4>Päiväkirjaotsikko 1</h4>
+          <p>Tähän päiväkirjamerkintä korttiin 1.</p>
+        </div>
+      </div>
+  
+      <!-- Kortti 2 -->
+      <div class="card" id="right">
+        <div class="card-img">
+          <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/686f05f5-5930-4df6-a652-bc126e88f187/dfr9bqh-42bf7051-9c29-40a6-be64-4c35da3306db.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY4NmYwNWY1LTU5MzAtNGRmNi1hNjUyLWJjMTI2ZTg4ZjE4N1wvZGZyOWJxaC00MmJmNzA1MS05YzI5LTQwYTYtYmU2NC00YzM1ZGEzMzA2ZGIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.JtoVnh6k5LMEeEqXEAYa2P2wzhS9ar-7K45K8RcfF74" alt="" >
+        </div>
+        <div class="card-diary">
+          <h4 class="day">Päiväkirjaotsikko 1</h4>
+          <p class="description">Tähän päiväkirjamerkintä korttiin 1.</p>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="/main.js"></script>
+    <!-- <script type="module" src="/test.js"></script> -->
+
+  </body>
+</html>
